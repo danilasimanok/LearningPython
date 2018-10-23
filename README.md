@@ -5,3 +5,4 @@
 - practice1.ipynb -- первая программа
 - practice2.ipynb -- элементарная функция
 - practice3.ipynb -- задача N тел
+- **practice4.ipynb** -- декоратор с параметром
