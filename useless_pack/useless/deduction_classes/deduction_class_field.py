@@ -20,7 +20,7 @@ class DeductionClassPrime(DeductionClass):
         return DeductionClassPrime.to_prime(super(DeductionClassPrime, self).__radd__(other))
 
     def __neg__(self):
-        return DeductionClassPrime.to_prime(super(DeductionClassPrime, self).__init__())
+        return DeductionClassPrime.to_prime(super(DeductionClassPrime, self).__neg__())
 
     def __sub__(self, other):
         return DeductionClassPrime.to_prime(super(DeductionClassPrime, self).__sub__(other))
