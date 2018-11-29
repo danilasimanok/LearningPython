@@ -12,7 +12,7 @@ mark = float(s.split(' ')[6].split('/')[0])
 sosi = open("sosi", "r")
 content = sosi.read().split('\n')
 i = -1
-if mark == -10.0:
+if mark <= -10.0:
 	i = 0
 elif mark <= -8.0:
 	i = 1
